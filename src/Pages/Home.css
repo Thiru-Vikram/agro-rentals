@@ -1,0 +1,205 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+  
+.hero-section {
+    background-image: url('https://hbr.org/resources/images/article_assets/2021/08/Sep21_02_1176415931.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    color: white;
+    padding: 150px 20px;
+    margin-top: 70px;
+    border-radius: 8px;
+}
+  
+.hero-section h1 {
+    font-size: 36px;
+}
+  
+.hero-section p {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+  
+.cta-btn {
+    background-color: #cce0b7; /* Accent color */
+    color: #447834; /* Primary color */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.cta-btn:hover {
+    background-color: #87ab75; /* Secondary color */
+    color: white;
+}
+
+
+/* About Section */
+.about-section {
+    text-align: center;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #447834; /* Secondary color */
+    border-radius: 12px;
+    color: white;
+}
+
+.about-section h2 {
+    margin-bottom: 15px;
+}
+
+.about-section p {
+color: black;
+}
+  
+.featured-products {
+    margin-top: 40px;
+    text-align: center;
+}
+  
+.products-grid {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.product-card {
+    background-color: #447834; /* Primary color */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.product-card p {
+    color: black;
+}
+  
+.product-card:hover {
+    transform: translateY(-5px);
+    background-color: #447834; /* Secondary color */
+}
+
+.about-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    color: white; /* Accent color */
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.icon-item:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.icon-item p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    width: 100%;             
+    margin-top: 20px;        
+}
+
+.cta-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #cce0b7; /* Accent color */
+    color: #447834; /* Primary color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;      
+}
+  
+.cta-btn:hover {
+    background-color: #87ab75; /* Secondary color */
+    color: white;
+}
+  
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+  
+.product-card p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #447834;  /* Olive green */
+    color: #FFFFFF;  /* White text */
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-content {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.footer-content p {
+    color: white;
+}
+
+.footer-logo {
+    height: 40px;  /* Adjust size as needed */
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: #FFFFFF;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
