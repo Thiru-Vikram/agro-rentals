@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Contact.css";
 
 function Contact() {
@@ -11,27 +11,18 @@ function Contact() {
     email: "",
     productName: "",
     price: "",
-    images: []
   });
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleImageChange = (e) => {
-    const files = Array.from(e.target.files);
-    setFormData({
-      ...formData,
-      images: files
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     const emailBody = `
       Personal Information:
       Name: ${formData.name}
@@ -39,7 +30,7 @@ function Contact() {
       Village Name: ${formData.villageName}
       State: ${formData.state}
       Mobile Number: ${formData.mobileNumber}
-      Email: ${formData.email || 'Not provided'}
+      Email: ${formData.email || "Not provided"}
 
       Product Details:
       Product Name: ${formData.productName}
@@ -150,20 +141,11 @@ function Contact() {
                 required
               />
             </div>
-
-            <div className="form-group">
-              <label>Upload Product Images *</label>
-              <input
-                type="file"
-                multiple
-                accept="image/*"
-                onChange={handleImageChange}
-                required
-              />
-            </div>
           </div>
 
-          <button type="submit" className="submit-btn">Submit</button>
+          <button type="submit" className="submit-btn">
+            Submit
+          </button>
         </form>
       </div>
     </div>

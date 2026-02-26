@@ -1,75 +1,76 @@
 .cart-container {
-    padding: 20px;
-    margin-top: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
-  }
-  
-  .cart-container h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .cart-container > p {
-    text-align: center;
-    font-size: 1.2rem;
-    color: #666;
-    margin-top: 50px;
-    font-style: italic;
-  }
-  
-  .cart-items {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .cart-item {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    justify-content: space-between;
-  }
-  
-  .cart-image {
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
-    flex-shrink: 0;
-  }
-  
-  .cart-info {
-    flex: 1;
-    margin-right: 15px;
-  }
-  
-  .cart-info h3 {
-    margin: 0;
-    font-size: 18px;
-  }
-  
-  .cart-info p {
-    margin: 5px 0;
-  }
-  
-  .remove-button {
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    flex-shrink: 0;
-    white-space: nowrap;
-  }
-  
-  .remove-button:hover {
-    background-color: darkred;
-  }
-  
+  padding: 96px 10px 56px;
+  color: var(--text);
+}
+
+.cart-container h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.cart-container > p {
+  text-align: center;
+  font-size: 16px;
+  color: var(--muted);
+  margin-top: 32px;
+  font-style: italic;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid rgba(125, 216, 125, 0.18);
+  padding: 12px;
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.cart-image {
+  width: 88px;
+  height: 88px;
+  border-radius: 12px;
+  object-fit: cover;
+  background: #0b120c;
+}
+
+.cart-info {
+  flex: 1;
+}
+
+.cart-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.cart-info p {
+  margin: 2px 0;
+  color: var(--muted);
+}
+
+.remove-button {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.remove-button:hover {
+  transform: translateY(-2px);
+  background: #f87171;
+  box-shadow: 0 10px 18px rgba(239, 68, 68, 0.25);
+}

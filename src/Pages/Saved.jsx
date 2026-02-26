@@ -17,9 +17,12 @@ function Saved() {
               <div className="cart-info">
                 <h3>{item.name}</h3>
                 <p>Seller: {item.seller}</p>
-                <p>Price: ${item.price}</p>
+                <p>Price: ₹{item.price}</p>
               </div>
-              <button onClick={() => removeFromCart(item.id)} className="remove-button">
+              <button
+                onClick={() => removeFromCart(item.id)}
+                className="remove-button"
+              >
                 Remove
               </button>
             </div>

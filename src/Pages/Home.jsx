@@ -8,7 +8,7 @@ import {
   FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
-import logo from "../assets/logo.jpg";
+import logo from "../Assets/logo.jpg";
 import "./Home.css";
 
 function Home() {

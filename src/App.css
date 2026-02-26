@@ -1,4 +1,6 @@
-* {
-  padding: 0;
-  margin: 0;
+main {
+  padding: 0 8px 48px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
