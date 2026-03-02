@@ -20,7 +20,6 @@ function Products() {
 
   const handleAddToCart = (product) => {
     addToCart(product);
-    console.log(`${product.name} added to cart`);
   };
 
   const filteredProducts = products

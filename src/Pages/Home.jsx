@@ -107,10 +107,10 @@ function Home() {
           <div className="product-card">
             <img
               src="https://image.made-in-china.com/202f0j00ugMcldkFHEpt/Red-Color-Reversible-Disc-Plough-with-High-Efficiency.webp"
-              alt="Plow"
+              alt="Disc Plough"
               className="product-image"
             />
-            <p>Plow</p>
+            <p>Disc Plough</p>
           </div>
         </div>
         <div className="button-container">
@@ -123,7 +123,7 @@ function Home() {
       <footer className="footer">
         <div className="footer-content">
           <img src={logo} alt="RentalHub Logo" className="footer-logo" />
-          <p>© 2025 RentalHub. All rights reserved.</p>
+          <p>© 2026 RentalHub. All rights reserved.</p>
           <p>Empowering farmers with affordable and reliable equipment.</p>
           <div className="social-links">
             <FaFacebook size={20} className="social-icon" />

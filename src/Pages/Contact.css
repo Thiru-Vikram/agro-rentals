@@ -35,6 +35,12 @@
   margin-bottom: 12px;
 }
 
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
 .form-group {
   margin-bottom: 18px;
 }
@@ -70,6 +76,7 @@
   border-radius: 12px;
   font-weight: 700;
   cursor: pointer;
+  width: 100%;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
@@ -100,5 +107,9 @@ label[for="email"]::after {
 
   .form-section {
     padding: 16px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
   }
 }
